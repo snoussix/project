@@ -33,4 +33,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>amcharts</name>
+			<type>2</type>
+			<location>C:/Users/snoussix/Desktop/amchart/amcharts</location>
+		</link>
+	</linkedResources>
 </projectDescription>

@@ -3,24 +3,24 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Tests JDBC</title>
+        <title>Tests Mongo</title>
         <link type="text/css" rel="stylesheet" href="<c:url value="/inc/form.css"/>" />
     </head>
     <body>
-        <h1>Tests JDBC</h1>
+        <h1>Tests Mongo</h1>
 
 <table>
 	<tr>
 		<th>Table of current/estimated portfolio</th>
 	</tr>
 	
-	<c:forEach var="message" items="${messages}" >
-		<tr>
-			<td>${message}</td>
-		</tr>
-	</c:forEach>
 </table>
-    	<button>historique des cours.</button>
+
+
+<a href="/PEPSS/actionbb">
+   <button>historique actions</button>
+</a>
+
     	<button>pricer.</button>
     	<button>historique du portefeuille.</button>
     	<button>Recalibrer portefeuille.</button>

@@ -15,14 +15,9 @@ public class GestionMongo extends HttpServlet {
     public static final String VUE          = "/WEB-INF/test_mongo.jsp";
 
     public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
-        /* Initialisation de l'objet Java et récupération des messages */
-        TestMongo test = new TestMongo();
-        List<String> messages = test.executerTests( request );
 
-        /* Enregistrement de la liste des messages dans l'objet requête */
-        request.setAttribute( ATT_MESSAGES, messages );
-
-        /* Transmission vers la page en charge de l'affichage des résultats */
-        this.getServletContext().getRequestDispatcher( VUE ).forward( request, response );
+		String message ="PEPS";
+		request.setAttribute("test", message);
+		this.getServletContext().getRequestDispatcher(VUE ).forward( request, response );
     }
 }
